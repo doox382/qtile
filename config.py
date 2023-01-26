@@ -156,7 +156,7 @@ screens = [
                 widget.Spacer(length=10, background='00337C'),
                 widget.TextBox('', background='00337C',fontsize=20, foreground='13005A', padding=0),
                 widget.TextBox(' ', background='13005A', padding=0),
-                widget.Wttr(location={'Belgrade': 'Belgrade','44.7559121,20.4942512': 'Belgrade'}, background='13005A'),
+                widget.Wttr(location={'Belgrade': 'Belgrade','00.0000000,00.0000000': 'Belgrade'}, background='13005A'),
                 widget.Spacer(length=10, background='13005A'),
                 widget.TextBox('', background='13005A',fontsize=20, foreground='03C988', padding=0),
                 widget.ThermalSensor(background='03C988', format='󰓅  CPU: {temp:.0f}{unit}'),
